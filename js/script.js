@@ -1,12 +1,16 @@
 
 
 
-
-
-
+let currentplayer= "x" 
+let totaltracks= 0
+let starter= false
+function  performLogic(button, tile){ 
+$(tile).text(currentplayer);
+}
 
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
+    
 });
 
 $("#button2").click(function() {
